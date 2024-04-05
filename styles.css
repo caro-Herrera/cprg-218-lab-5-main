@@ -1,0 +1,70 @@
+/* Estilos para tarjetas de personajes */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0rem 0.125rem 1.5rem rgb(0 0 0 / 12%);
+  max-width: 21.1875rem;
+  flex: 1 0 45%;
+}
+
+
+.card img {
+  border-radius: 4px 4px 0 0;
+  width: 100%;
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+/* Estilos para el encabezado */
+.header-container {
+  background-color: #cc1515;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+/* Estilos para el contenedor principal */
+.container {
+  margin: 3rem auto;
+  max-width: 75rem;
+  padding: 3rem 1.5rem;
+  position: relative;
+}
+
+/* Estilos para la caja de búsqueda */
+.box {
+  margin-bottom: 2rem;
+}
+
+input.search {
+  border: 2px solid rgb(232, 253, 3);
+  font-size: 1rem;
+  width: 80%;
+  height: 2rem;
+  border-radius: 25px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+h1, h2 {
+  color: white;
+}
+
+p {
+  color: rgb(251, 4, 4);
+}
+
+.card {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-10px); 
+}
